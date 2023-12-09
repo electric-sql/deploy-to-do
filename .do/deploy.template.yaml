@@ -7,9 +7,6 @@ spec:
         registry: electricsql
         repository: electric
       envs:
-        - key: DATABASE_URL
-          value: "postgresql://<user>:<password>@<host>/<dbname>"
-          scope: RUN_TIME
         - key: PG_PROXY_PASSWORD
           scope: RUN_TIME
         - key: PG_PROXY_PORT
