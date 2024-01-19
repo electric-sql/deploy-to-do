@@ -4,7 +4,7 @@ spec:
     - name: electric
       image:
         registry_type: DOCKER_HUB
-        registry: electricsql
+        registry: alco
         repository: electric
       envs:
         - key: PG_PROXY_PASSWORD
