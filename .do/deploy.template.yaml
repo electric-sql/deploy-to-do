@@ -19,6 +19,5 @@ spec:
           value: "direct_writes"
           scope: RUN_TIME
       health_check:
-        http_path: "/api/status"
         period_seconds: 60
       http_port: 5133
